@@ -1,0 +1,5 @@
+apt install nginx -y
+systemctl start nginx
+sudo -i
+cd var/www/html
+echo "webpage is lauvhed" > index.html
